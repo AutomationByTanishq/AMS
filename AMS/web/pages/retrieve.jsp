@@ -7,11 +7,9 @@
         <title>Insert title here</title>
     </head>
     <body>
-        <center>
-            <h1>Welcome <%=session.getAttribute("roll") %></h1>
-            <form action="./facultyfunctions.jsp">
-                <input type="submit" value="Main Menu">
-            </form>
-        </center>
+        <form action="./retim.jsp">
+            Id:<input type="text" name="id"/><br>
+            <input type="submit" name="ok" value="retrieve"/>
+        </form>
     </body>
 </html>

@@ -7,9 +7,10 @@
         <title>Insert title here</title>
     </head>
     <body>
-        <center>
-            <h1> REGISTRATION SUCCESSFUL </h1>
-            <a href="./details.jsp">View Details</a>
-        </center>
+        <form action="./insim.jsp">
+            Id:<input type="text" name="id"/><br>
+            File:<input type="file" name="path"/><br>
+            <input type="submit" name="ok" value="upload"/>
+        </form>
     </body>
 </html>
